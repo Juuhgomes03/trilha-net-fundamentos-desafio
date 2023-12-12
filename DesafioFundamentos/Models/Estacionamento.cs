@@ -53,7 +53,7 @@ namespace DesafioFundamentos.Models
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");
-               int QuantDeVeiculos =1;
+               int QuantDeVeiculo =1;
                foreach(string veiculos in veiculos);
                 {
                         Console.WriteLine($"N° - {QuantDeVeiculo} - {veiculo}");
